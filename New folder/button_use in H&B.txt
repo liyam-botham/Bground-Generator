@@ -1,0 +1,21 @@
+<html>
+
+<head>
+<script type = "text/javascript">
+	<!--
+		function clickbutton()
+		{
+			alert("Don't click below");
+			}
+			//-->
+</script>
+</head>
+
+<body>
+		<sc
+
+		<input type ="button" onclick = "clickbutton()" value="click here"/>
+</body>
+</html>
+
+		

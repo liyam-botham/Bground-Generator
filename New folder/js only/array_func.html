@@ -1,0 +1,82 @@
+<html>
+<head>
+<style>
+.mydiv
+{
+	color: yellow;
+	background-color:green;
+}
+</style>
+		<h2> Basic array use of array in JS 2 </h2>
+
+</head>
+
+<body>
+<div class="mydiv">
+	<p><b> Performable operations are: </b></p>
+	<input type="button" value="Your array" onclick="theArray()"/>
+	<input type="button" value="numerical sort" onclick="num_sort()"/>
+	<input type="button" value="alphabetical sort" onclick="al_sort()"/>
+	
+</div>	
+	
+<script language="javascript" type="text/javascript">
+
+var n= prompt("Enter the total number of values to be entered");
+var arr=[n];
+var i;
+i=0;
+
+for(i=0;i<n;i++)
+{
+	arr[i]=prompt("Enter array elements");
+}
+function theArray()
+{
+	var txt;
+	var i=0;
+	txt = "<ul>";
+	for(i=0;i< arr.length;i++)
+	{
+	
+		txt += "<li>" + arr[i] + "</li>";
+
+	}
+	txt+="</ul>"
+	document.write(txt);
+}
+function al_sort()
+{
+	var x=arr.sort();
+	var tx;
+	var i=0;
+	tx = "<ul>";
+	for(i=0;i< arr.length;i++)
+	{
+	
+		tx += "<li>" + x[i] + "</li>";
+
+	}
+	tx+="</ul>"
+	document.write(tx);
+}
+function num_sort()
+{
+		var x;
+		x=arr.sort(function(a,b){return a-b});
+	var tx;
+	var i=0;
+	tx = "<ul>";
+	for(i=0;i< arr.length;i++)
+	{
+	
+		tx += "<li>" + x[i] + "</li>";
+
+	}
+	tx+="</ul>"
+	document.write(tx);
+}	
+
+</script>
+</body>
+</html>

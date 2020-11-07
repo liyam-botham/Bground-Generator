@@ -1,0 +1,37 @@
+<html>
+<style>
+.mydiv
+{
+	color: black;
+	background-color:aqua;
+}
+</style>
+<head>
+		<h2> Basic array use of array in JS </h2>
+		
+		
+</head>
+
+<body>
+
+	<div class="mydiv">
+	<p id="demo"></p>
+	</div>
+	<script language="javascript" type="text/javascript">
+	
+	var arr1;
+	arr1 =["JS","C++","C","java","python"];
+	var txt,i,a;
+	a=arr1.length;
+	//document.getElementByID("Enter 5 values </br>");
+	
+	txt = "<ul>";
+	for(i=0;i < a-1;i++)
+	{
+		txt += "<li>" + arr1[i] + "</li>";
+	}
+	txt+="</ul>"
+	document.getElementById("demo").innerHTML = txt;
+	</script>
+</body>
+</html>

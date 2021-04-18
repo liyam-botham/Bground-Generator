@@ -1,0 +1,5 @@
+git clone : Clones a repo from github
+
+git status: status of the files present in the git hub cloned folder
+
+git add 'filename': adds file to online repo

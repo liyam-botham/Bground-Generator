@@ -11,3 +11,8 @@ git push : push changes to git
 git branch : shows branches
 
 git branch "New branch name": create new branch
+
+git checkout "branch name" : change to select branch 
+=======
+git branch "New branch name": create new branch
+

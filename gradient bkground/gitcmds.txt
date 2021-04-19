@@ -6,7 +6,7 @@ git add 'filename': adds file to online repo
 
 git commit : Commit changes  {"-m" to add message}
 
-git push : push changes ti git
+git push : push changes to git
 
 git branch : shows branches
 

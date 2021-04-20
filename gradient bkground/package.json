@@ -1,0 +1,14 @@
+{
+  "name": "gradient-bkground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bground1.js",
+  "scripts": {
+    "test": "browserify bground1.js > bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

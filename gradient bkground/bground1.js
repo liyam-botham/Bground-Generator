@@ -1,3 +1,5 @@
+var _ = require('lodash');
+
 var css1=document.getElementById("ipt1");
 var css2=document.getElementById("ipt2");
 var color1  =document.querySelector("h3");

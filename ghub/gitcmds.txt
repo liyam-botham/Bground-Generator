@@ -1,0 +1,38 @@
+git clone : Clones a repo from github
+
+git status: status of the files present in the git hub cloned folder
+
+git add 'filename': adds file to online repo
+
+git commit : Commit changes  {"-m" to add message}
+
+git push : push changes to git
+
+git branch : shows branches
+
+git branch "New branch name": create new branch
+
+git checkout "branch name" : change to select branch 
+=======
+git branch "New branch name": create new branch
+
+
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd robfrnds
+  npm start
